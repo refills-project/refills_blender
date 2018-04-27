@@ -2,6 +2,8 @@
 A collection of Blender scripts used in the REFILLS project.
 
 ## Creation of Naive Product Meshes
+We created a script that generates naive product meshes from a (hopefully high-res) front picture and bounding box information. 
+
 ### Installation
 You need at least ```Blender v2.79```. For ```Ubuntu 14.04``` and ```Ubuntu 16.04```, go to [the Blender website](https://www.blender.org/) and download the newest pre-compiled binaries.
 
