@@ -10,7 +10,7 @@ You also need to enable the plugin ```import_image_to_plane```. That is a standa
 ![import_images_as_planes](https://github.com/refills-project/refills_blender/blob/master/doc/import_images_as_planes.png)
 
 ### Running the script
-Go to the directory in which you have installed blender and run:
+Example call for creating the Somat mesh from the included example data (width=14cm, depth=10cm, height=15cm):
 ```shell
-$ blender --background -P <script-name>
+$ ~/blender-2.79b-linux-glibc219-x86_64/blender -P scripts/create_naive_box_mesh.py --background -- images/somat_classic_pulver.png meshes/foo.dae 0.14 0.1 0.15
 ```
