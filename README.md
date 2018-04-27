@@ -12,5 +12,5 @@ You also need to enable the plugin ```import_image_to_plane```. That is a standa
 ### Running the script
 Example call for creating the Somat mesh from the included example data (width=14cm, depth=10cm, height=15cm):
 ```shell
-$ ~/blender-2.79b-linux-glibc219-x86_64/blender -P scripts/create_naive_box_mesh.py --background -- images/somat_classic_pulver.png meshes/foo.dae 0.14 0.1 0.15
+$ ~/blender-2.79b-linux-glibc219-x86_64/blender -P scripts/create_naive_box_mesh.py --background -- images/somat_classic_pulver.png meshes/somat_classic_pulver.dae 0.14 0.1 0.15
 ```
